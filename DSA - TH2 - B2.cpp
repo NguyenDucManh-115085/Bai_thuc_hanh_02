@@ -31,10 +31,4 @@ int main() {
         }
         printf("\n");
     }
-    
-    for (int i = 0; i < r; i++) {
-        delete[] arr[i];
-    }
-    delete[] arr;
-    return 0;
 }
