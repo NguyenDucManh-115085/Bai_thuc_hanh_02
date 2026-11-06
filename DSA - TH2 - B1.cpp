@@ -19,6 +19,4 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("%f ", *(arr + i));
     }
-    delete[] arr;
-    return 0;
 }
