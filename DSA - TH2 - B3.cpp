@@ -51,7 +51,4 @@ int main() {
         printf("\nThong tin sinh vien thu %d:\n", i + 1);
         sv[i].xuat();
     }
-    
-    delete[] sv;
-    return 0;
 }
